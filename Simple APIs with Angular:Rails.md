@@ -11,7 +11,8 @@ Create a simple API with Angular and RoR using Matthias's Anagram Homework.
 		angular.module('angulartest', []).controller('aCtrl', ['$scope', '$http', function($scope, $http) {}]);
 		
 3. Inside your HTML file add `ng-app` and `ng-controller` <small>(<i>views > layouts> application.html.erb</i>)</small>.
-4. Define a method inside your `controller.rb`. This is your API waiting to be called. ex.
+4. Define a method inside your `controller.rb`. This is your API waiting to be called. 
+<br />ex. <small>(<i>controllers > anagrams_controller.rb)</i></small>
 								
 		def check_anagram
 			s = params[:s]
