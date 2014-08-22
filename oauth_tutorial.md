@@ -11,13 +11,13 @@ OAuth is an authentication protocol that allows you to approve one application i
 5. **Your app obtains an access token!** – From the request token and authorization, the product obtains an access token and secret.
 6. The product can now access the protected resource! 
 
-![image](https://opensocial.atlassian.net/wiki/download/attachments/526872/Oauth_3legged.png?version=1&modificationDate=1289933713495&api=v2 =250x)
+![image](https://opensocial.atlassian.net/wiki/download/attachments/526872/Oauth_3legged.png?version=1&modificationDate=1289933713495&api=v2)
 
 ###Things to remember:
 
 * The `Redirect URI` or `Callback URL` must point back to your URL: `localhost:3000/github`. This will have to change when deploying your app!
 
-	![image](https://s3.amazonaws.com/uploads.hipchat.com/39979/962485/T0LotXto0sTg1vH/screenshot.png =350x)
+	![image](https://s3.amazonaws.com/uploads.hipchat.com/39979/962485/T0LotXto0sTg1vH/screenshot.png)
 * For the most part OAuth services have a similar creation flow, but they may have slightly different security features. For the Github OAuth Authentication, the Application Name is also a key code.
 * `Client ID` is okay to tell people, but the `Client Secret` SHOULD NOT be shared. It should be in your *server*.
 * OAuth requires a client_id and client_secret everytime.
@@ -37,7 +37,7 @@ How to use OAuth authentication and create a user with a 3rd-party API, using HT
 2. Authorize an app on an OAuth supported service (Google, Facebook, Twitter, Soundcloud, Github, etc.). Look at "Things to Remember" to fill out the specific forms like Redirect URI.
 3. Stash away the Client ID and Client Secret. You might want to add them in your `.bash_profile` for your development environment, or get a gem/plugin that hides your Client Secret for when you throw your code into production. 
 
-	![image](https://s3.amazonaws.com/uploads.hipchat.com/39979/962485/uI4ML6GbGeRbmRR/screenshot.png =350x)
+	![image](https://s3.amazonaws.com/uploads.hipchat.com/39979/962485/uI4ML6GbGeRbmRR/screenshot.png)
 
 4. For this specific example we're going to throw those in our `.bash_profile`. It might look something like this:
 
@@ -87,7 +87,7 @@ How to use OAuth authentication and create a user with a 3rd-party API, using HT
 
 8. Success!
 	  	
-![image](http://media3.giphy.com/media/A9RhsvsdWz2aA/200w.gif =350x)
+![image](http://media3.giphy.com/media/A9RhsvsdWz2aA/200w.gif)
 
 
 ****
